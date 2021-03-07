@@ -12,8 +12,10 @@ public class metodos {
 //		
 //		System.out.println(recibeCharCorrespondienteAEntero(70));
 		
-		int caracter = devuelveEnteroCorrespondienteAChar('A');
-		System.out.println(caracter);
+//		int caracter = devuelveEnteroCorrespondienteAChar('A');
+//		System.out.println(caracter);
+		
+		multiplosDe3(30);
 
 	}
 	
@@ -30,5 +32,21 @@ public class metodos {
 		
 		return caracter;
 	}
+	
+//	30. Implementa, dentro de la clase ‘Metodos’, un método que imprima por pantalla los 
+//	múltiplos de 3 existentes desde 0 hasta un número entero que reciba como parámetro.
+	
+	static void multiplosDe3(int numFinal){
+		int multiplo=1;
+	
+		while(multiplo<=numFinal){
+			if(multiplo%3==0) {
+				System.out.print(multiplo+ " ");
+			}
+			multiplo++;
+		}
+		
+	}
+
 
 }
