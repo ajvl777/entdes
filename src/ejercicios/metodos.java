@@ -15,7 +15,14 @@ public class metodos {
 //		int caracter = devuelveEnteroCorrespondienteAChar('A');
 //		System.out.println(caracter);
 		
-		multiplosDe3(30);
+		
+		
+		
+//<<<<<<< HEAD
+//	 	multiplosDe3(30);
+// =======
+//		 cuentaAtras(20,2);
+// >>>>>>> refs/heads/nueva_funcionalidad
 
 	}
 	
@@ -33,8 +40,8 @@ public class metodos {
 		return caracter;
 	}
 	
-//	30. Implementa, dentro de la clase ‘Metodos’, un método que imprima por pantalla los 
-//	múltiplos de 3 existentes desde 0 hasta un número entero que reciba como parámetro.
+//<<<<<<< HEAD
+
 	
 	static void multiplosDe3(int numFinal){
 		int multiplo=1;
@@ -48,5 +55,21 @@ public class metodos {
 		
 	}
 
+//=======
+
+	
+	static void cuentaAtras(int inicio , int resta) {
+		
+		do {
+			System.out.println(inicio);
+			inicio=inicio-resta;
+			if(inicio<1) {
+				inicio=0;
+				System.out.println(inicio);
+			}
+			
+		}while(inicio !=0);
+	}
+//>>>>>>> refs/heads/nueva_funcionalidad
 
 }
